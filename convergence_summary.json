@@ -1,0 +1,8 @@
+{
+  "mlp_fits": 120,
+  "not_converged_at_cap": 0,
+  "max_iter_used": 435,
+  "warning_categories": {
+    "DeprecationWarning": 420
+  }
+}

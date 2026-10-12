@@ -1,0 +1,5 @@
+dataset,file,sha256,n,positive,negative,missing_cells_raw,zero_chol,zero_trestbps,missing_cells_used,duplicate_feature_rows
+Cleveland,data/processed.cleveland.data,a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8,303,139,164,6,0,0,6,0
+Statlog,data/heart.dat,f5f3b4204c285bafadd85cb735f38b47689f2be7047feb172dcbeab648110bf9,270,120,150,0,0,0,0,0
+Hungarian,data/processed.hungarian.data,d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796,294,106,188,782,0,0,782,1
+Swiss,data/processed.switzerland.data,834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314,123,115,8,273,123,0,396,0

@@ -1,0 +1,1 @@
+Mean pairwise Spearman correlation of mean|SHAP| feature ranks across the 5 folds: 0.923 (min 0.874); n_permutations=10, background=50, patients=303

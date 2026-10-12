@@ -1,0 +1,46 @@
+{
+  "input_checks": {
+    "Cleveland": {
+      "file": "data/processed.cleveland.data",
+      "found": true,
+      "bytes": 18461,
+      "sha256_manifest": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+      "sha256_recomputed": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+      "hash_matches_manifest": true
+    },
+    "Statlog": {
+      "file": "data/heart.dat",
+      "found": true,
+      "bytes": 16461,
+      "sha256_manifest": "f5f3b4204c285bafadd85cb735f38b47689f2be7047feb172dcbeab648110bf9",
+      "sha256_recomputed": "f5f3b4204c285bafadd85cb735f38b47689f2be7047feb172dcbeab648110bf9",
+      "hash_matches_manifest": true
+    },
+    "Hungarian": {
+      "file": "data/processed.hungarian.data",
+      "found": true,
+      "bytes": 10263,
+      "sha256_manifest": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796",
+      "sha256_recomputed": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796",
+      "hash_matches_manifest": true
+    },
+    "Swiss": {
+      "file": "data/processed.switzerland.data",
+      "found": true,
+      "bytes": 4109,
+      "sha256_manifest": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314",
+      "sha256_recomputed": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314",
+      "hash_matches_manifest": true
+    }
+  },
+  "missing_files": [],
+  "overlap": {
+    "cleveland_rows": 303,
+    "statlog_rows": 270,
+    "statlog_rows_matching_cleveland_exact_13_features_one_to_one": 270,
+    "statlog_rows_matching_cleveland_features_and_binary_label_one_to_one": 270,
+    "all_270_statlog_rows_match_with_labels": true,
+    "comparison": "13 numerical attributes, numeric normalization, label mapping Statlog 1->0 / 2->1 and Cleveland 0->0 / 1-4->1",
+    "note": "This is exact feature matching; duplicate tuples are counted one-to-one. Near matches or partially missing values are not automatically treated as exact."
+  }
+}

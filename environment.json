@@ -1,0 +1,18 @@
+{
+  "python": "3.13.16",
+  "sklearn": "1.6.1",
+  "xgboost": "3.4.1",
+  "pandas": "2.2.3",
+  "numpy": "2.1.3",
+  "seeds": [
+    42,
+    52,
+    62
+  ],
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "mlp_max_iter": 2000,
+  "zeros_as_missing": true,
+  "drop_duplicates": false,
+  "original_run_env": "Python 3.13.16, sklearn 1.6.1, xgboost 3.4.1, numpy 2.1.3, pandas 2.2.3"
+}
